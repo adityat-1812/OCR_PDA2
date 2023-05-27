@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "norse-coral-387012",
+  "private_key_id": "593161b46e836dd6f729eaaa955bd7dad5978e0f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC0zNHs4SyWzpxZ\nrTU3O0UZJFWXIbFA9xbqOVSZNFYDSg73sIKcrbf/qcc/3KIxrmLpUT4Y4pSAraIF\nacTN9rU6jzPVs2RYwX8wSGyDIepEuSXibS7gMcc1x+xbmvxUrtKpeAu2jZWpfNGo\nmCjpx8Fn/HiN+NuVTli4Gc45YCRXeCrwOsQaXRxP4Cf9yl2w/54iIWv6s32W0sIO\nI3uhS4kJgQ0nwrZITferQVz5VW3uVq3efbyQAPdIKqWNG7tlGZJPJv/Z6m9II+sB\nLKIWBCYlmLnOZkFKxhDIdx06IgTUJSDz9F2Fz/Gz8QKkHzdGm/6A2BZ62v+cPGfc\nbzegN9khAgMBAAECggEANfC/lrUNaQbGRcjzzgEcWeZptLfEGtY9G280Sqr/GGch\ndQtPxG/dq+SawfZQ25KkBukKpkD/Pi7PXl8SbMJ0ij6MH+8v+nzsNdr9qNfW/V7h\nqx6Y9CFVxjlZznC8ZIVt60qZ8AJoytKm+G5BEpJapOwBiZXb6T0hIffs+1gwL3n1\nqH0QkAXoCbqrGL4ydGiylcE/yB7o5W3GH1OvMzDXOChkWADKzn9Twtnmn6kpgrXc\n/NdJPyKah2WCtw9QGYx6NC7wx+C6AY6RuZycN61FiRfyqMb2o8wGfXe9JwLQ4KyK\n4LZXliVCaBBxRcu8zS/sPfHijB7C0ngPvZBQqkomQwKBgQDcb60v9u6vR8jAs3XR\n9X14z5qmOU1ni3WWxi/sUCNHp6r+C6FrXvYfIsnVWYnJpJ1IDelDrC4KMYKyfQMx\nOopyTxJWthOn7G0BMlFYejljyZiqf6kohVkbMbpY4CEYXksH1sy8F0+Bye9yjXMO\nKmAKg/m3nLxixh9clxDkvj7p1wKBgQDR+B1v1JsKEsJtChDxvqzFHa96XjDh9nV0\nsSLdRH7uk2eWUnvR3rC1/Cd1zB4wykdvHVjQIsiKkGMk/5yIxGFyaWy7HnbXdXlS\nAzKlXeUtkqMpdt+eD4Q4xNP/tjYObHIZnwVcx2X5wk9sF8kHfr/LI7UMn8sHKUgL\ni1YjPhwlxwKBgHG0VUQxfmsBfycPKs4TcBY6GA537lpj0FLmhd/CcoBKl2QVgb0N\nrazf1/ZqCi3t8IczTchvbwwo/76rx1LEXJeb+9yobLkotg1w9A7MdP/pBAumcA4L\nwqvJWdLwQYH9WXyAqvi2mXdcP1v6ZIfBCetCqjOw8GeOxKyQ69Dh5TffAoGAShUD\ntdhKl4RE6xn5HoJLDQVLS55+GsvNZ020YmNvcZe6nbQekc7DhIIiHhLVuBs2lwLA\nujb7kMAe6wfw3+SCCU8fGOpHvf9pvcD5FpWJbcnmHZQek/MfkLQJpJhSfEZQ/682\nwiRsW3HuedHukOFspCzGDV030iADlmckDi002zMCgYB9h2ahDclmJAqbDiHxk0nr\nPOVwcgeKYzdaYg7AxmWz+0BydkLdhdOLCwXzJY41N3Aas+NbCoEQ7rjiddp6Br0o\ntpoUGIDopGiB2RHbSICyEwaTZJgRLGKcmms/TkwBjjMT3rMKbBQhFxZZmpQ3V1Gx\nj0S0lXKyIDSwRy00c5m6bA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "vision-api@norse-coral-387012.iam.gserviceaccount.com",
+  "client_id": "116945107988236595765",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/vision-api%40norse-coral-387012.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

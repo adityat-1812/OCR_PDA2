@@ -1,0 +1,99 @@
+<!--
+{% block content %}
+
+
+<div>
+  <div class="log-form">
+    <h1>This is prescription scan</h1>
+
+    <form method="POST" enctype="multipart/form-data" id="upload-form">
+
+      {% csrf_token %}
+      <label for="docID">Docter's Name</label>
+      <div class="form-group">
+
+        {% render_field uploadpatientprescriptionsform.docID class="form-control" placeholder="Doctor" %}
+
+      </div>
+      <br>
+      <label for="input_img">Upload Prescription's Image</label>
+
+        {% render_field uploadpatientprescriptionsform.input_img required="required" class="form-control" placeholder="Prescription Image" %}<br>
+
+      <a><input type="submit" class="button" value="Scan prescription"></a>
+
+
+    </form>
+
+{% if my_model %}
+    <h2>Crop Image</h2>
+    <div class="crop-container">
+        <img src="{{ my_model.input_img.url }}" id="crop-image" alt="Croppable Image">
+    </div>
+    <div class="resize-container">
+        <div class="resizable" style="width: 400px; height: 300px;">
+            <img src="{{ my_model.input_img.url }}" id="resizable-image" alt="Resizable Image">
+        </div>
+    </div>
+    <form method="post" action="{% url 'crop_image' my_model.pk %}">
+        {% csrf_token %}
+        <input type="hidden" name="x" id="crop-x">
+        <input type="hidden" name="y" id="crop-y">
+        <input type="hidden" name="width" id="crop-width">
+        <input type="hidden" name="height" id="crop-height">
+        <button type="submit">Crop Image</button>
+    </form>
+    {% if my_model.cropped_image %}
+        <h2>Cropped Image</h2>
+        <img src="{{ my_model.cropped_image.url }}" alt="Cropped Image">
+    {% endif %}
+{% endif %}
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.0-rc.1/jquery-ui.js"></script>
+<script src="
+https://cdn.jsdelivr.net/npm/jquery-resizable-dom@0.35.0/dist/jquery-resizable.min.js
+"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+<script>
+    var cropper;
+
+    function initializeCropper() {
+        cropper = new Cropper(document.getElementById('crop-image'), {
+            aspectRatio: 4 / 3,
+            viewMode: 2,
+            crop: function(event) {
+                document.getElementById('crop-x').value = event.detail.x;
+                document.getElementById('crop-y').value = event.detail.y;
+                document.getElementById('crop-width').value = event.detail.width;
+                document.getElementById('crop-height').value = event.detail.height;
+            }
+        });
+    }
+
+    $(document).ready(function() {
+        initializeCropper();
+
+        $('#resizable-image').resizable({
+            onResize: function() {
+                var newWidth = $(this).width();
+                var newHeight = $(this).height();
+
+                cropper.setCropBoxData({
+                    width: newWidth,
+                    height: newHeight
+                });
+            }
+        });
+    });
+</script>
+
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br>
+  {% endblock content %}
+
+-->
